@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Marvel</string>
+    <string name="no_description_available">No hay descripción disponible</string>
+    <string name="busqueda">Buscar superhéroe</string>
+    <string name="cerrar_sesion">Cerrar sesion</string>
+    <string name="email">Email</string>
+    <string name="contrasenia">Contraseña</string>
+    <string name="confirme_contrasenia">Confirme contraseña</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="volver">Volver</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="character_image">Character image</string>
+    <string name="movies_title">Comics</string>
+    <string name="series_title">Series</string>
+    <string name="character_card_content_description">Tarjeta del personaje %1$s</string>
+    <string name="character_image_content_description">Imagen de %1$s</string>
+    <string name="media_item_content_description">Elemento multimedia %1$s</string>
+    <string name="media_image_content_description">Imagen de %1$s</string>
+    <string name="error_logout">Error de sesion</string>
+    <string name="search_hint">Buscar personajes…</string>
+    <string name="empty_search_results">No se encontraron resultados</string>
+    <string name="refresh">Actualizar</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="no_results">No se encontraron resultados</string>
+</resources>

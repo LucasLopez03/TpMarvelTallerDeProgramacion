@@ -1,0 +1,25 @@
+CREATE TABLE Character (
+    id INTEGER NOT NULL PRIMARY KEY,
+    name TEXT NOT NULL,
+    description TEXT NOT NULL,
+    thumbnailUrl TEXT NOT NULL,
+    movieTitles TEXT NOT NULL,
+    movieImageUrls TEXT NOT NULL,
+    seriesTitles TEXT NOT NULL,
+    seriesImageUrls TEXT NOT NULL
+);
+
+selectAllCharacters:
+SELECT * FROM Character;
+
+searchCharactersByName:
+SELECT * FROM Character
+WHERE name LIKE '%' || ?1 || '%';
+
+insertCharacter:
+INSERT INTO Character(
+    id, name, description, thumbnailUrl, movieTitles, movieImageUrls, seriesTitles, seriesImageUrls
+) VALUES (?, ?, ?, ?, ?, ?, ?, ?);
+
+deleteAllCharacters:
+DELETE FROM Character;
